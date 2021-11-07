@@ -1,0 +1,9 @@
+
+Pages: 
+
+Home
+About (has sub pages)
+- About Me
+- Past Work
+Shop - forwards to Etsy
+Gallery

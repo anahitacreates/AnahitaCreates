@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+
+// // Import fonts: 
+// @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:ital,wght@0,100;0,200;1,100;1,200&family=Nunito:wght@600&family=Prompt:wght@300&display=swap');
+// // Set fonts
+// $family-sans-serif: 'Prompt', sans-serif;
+// $family-primary: 'Nunito', sans-serif;
+// $family-secondary: 'Baloo 2', cursive;
+
+
+// Brand colors
+$melon: #F56960;
+
+$lilac: #B395DA;
+$lilac-dark: #937AB3;
+$lilac-light: #C8A7F2;
+
+$tea: #DAFEB7;
+$tea-dark: #C5E6A5;
+$tea-light: #F2FFE5;
+
+$fern: #5C7457;
+$forest: #214E34;
+
+// Update global colors
+$primary: $lilac;
+$primary-dark: $lilac-dark;
+$primary-light: $lilac-light;
+$light: $tea;
+$dark: $forest;
+$info: $fern;
+$danger: $melon;
+
+
+// Update some of Bulma's component variables
+$body-background-color: $primary;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-item-hover-background-color: $tea-light;
+$navbar-item-img-max-height: 8rem;
+
+
+$large-margin: 10rem;
+
+// Margin Adjustments
+$spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem, 
+  "4": 1rem, "5": 1.5rem, "6": 3rem, "large": $large-margin, "auto": auto);
+
+
+@import "../bulma/bulma.sass";
+
+
+.navbar-item{
+  @include tablet {
+    margin-left: 2rem;
+  }
+}
+  
+.navbar-menu {
+  height: 50%;
+}
+
+
+.home-background-image {
+  @include tablet {
+    background-image: url(../images/background.svg);
+    background-size: 101% auto;
+    background-position: 50% 0%
+  }
+}
+
+
+// /* width */
+// ::-webkit-scrollbar {
+//   width: 10px;
+// }
+
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background: $blurple-light;
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background: $blurple;
+//   border-radius: 10px;
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: $blurple-dark;
+// }
