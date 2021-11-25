@@ -48,6 +48,10 @@ $large-margin: 10rem;
 $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem, 
   "4": 1rem, "5": 1.5rem, "6": 3rem, "large": $large-margin, "auto": auto);
 
+.navbar {
+  border-radius: 1rem;
+}
+
 
 @import "../bulma/bulma.sass";
 
@@ -69,6 +73,13 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
     background-size: 101% auto;
     background-position: 50% 0%
   }
+}
+
+.nav-background-image {
+  background-image: url(../images/nav_background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
 }
 
 

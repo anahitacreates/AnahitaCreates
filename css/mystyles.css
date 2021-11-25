@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.navbar {
+  border-radius: 1rem;
+}
+
 /*! bulma.io v0.9.3 | MIT License | github.com/jgthms/bulma */
 /* Bulma Utilities */
 .pagination-previous,
@@ -10381,4 +10385,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
     background-size: 101% auto;
     background-position: 50% 0%;
   }
+}
+
+.nav-background-image {
+  background-image: url(../images/nav_background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
 }
