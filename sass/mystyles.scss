@@ -1,36 +1,55 @@
 @charset "utf-8";
 
 
-// // Import fonts: 
+// Import fonts: 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:ital,wght@0,100;0,200;1,100;1,200&family=Nunito:wght@600&family=Prompt:wght@300&display=swap');
 // // Set fonts
 // $family-sans-serif: 'Prompt', sans-serif;
-// $family-primary: 'Nunito', sans-serif;
+$family-primary: 'Lato', sans-serif;
 // $family-secondary: 'Baloo 2', cursive;
 
 
 // Brand colors
-$melon: #F56960;
-
-$lilac: #B395DA;
+$melon: #f56b61;
+$lilac: #b395da;
 $lilac-dark: #937AB3;
 $lilac-light: #C8A7F2;
-
 $tea: #DAFEB7;
 $tea-dark: #C5E6A5;
 $tea-light: #F2FFE5;
-
 $fern: #5C7457;
 $forest: #214E34;
 
+/* SCSS HEX */
+$magnolia: #faf5fcff;
+$space-cadet: #272447ff;
+$new-york-pink: #cc7974ff;
+$tumbleweed: #f1b184ff;
+$medium-champagne: #ffe9a8ff;
+$celadon: #9feab8ff;
+$non-photo-blue: #96d7e5ff;
+$maximum-blue-purple: #c3b4f1ff;
+
+
 // Update global colors
-$primary: $lilac;
-$primary-dark: $lilac-dark;
-$primary-light: $lilac-light;
-$light: $tea;
-$dark: $forest;
-$info: $fern;
-$danger: $melon;
+
+$light: $magnolia;
+$dark: $space-cadet;
+$primary: $maximum-blue-purple;
+$link: $non-photo-blue;
+$info: $celadon;
+$success: $medium-champagne;
+$warning: $tumbleweed;
+$danger: $new-york-pink;
+
+// $primary: $lilac;
+// $primary-dark: $lilac-dark;
+// $primary-light: $lilac-light;
+// $light: $tea;
+// $dark: $forest;
+// $info: $fern;
+// $danger: $melon;
 
 
 // Update some of Bulma's component variables
@@ -39,10 +58,11 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $navbar-item-hover-background-color: $tea-light;
-$navbar-item-img-max-height: 8rem;
+$navbar-item-img-max-height: 5rem;
+$hero-body-padding-large: 12rem 9rem;
 
 
-$large-margin: 10rem;
+$large-margin: 6rem;
 
 // Margin Adjustments
 $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem, 
@@ -53,7 +73,7 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
 }
 
 
-@import "../bulma/bulma.sass";
+@import "../node_modules/bulma/bulma.sass";
 
 
 .navbar-item{
