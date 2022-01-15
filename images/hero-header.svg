@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="100" width="1920">
+  <path d="M 0 50 
+  		   C 300 0, 700 0, 1000 0
+  		   C 1200 0, 1500 10, 1920 100
+           L 1920 0
+           L 0 0
+           Z" stroke="#c3b4f1ff" fill="#c3b4f1ff" />
+  
+</svg>

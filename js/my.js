@@ -9,5 +9,6 @@ $(document).ready(function(){
                 $(".navbar-menu").toggleClass("is-active");
             });
         });
-
+    
+    $("#my-footer").load("./html/footer.html");
 });
