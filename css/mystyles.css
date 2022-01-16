@@ -10463,4 +10463,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   margin-top: 0px;
 }
 
+.navbar-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-item:hover {
+  transition: padding 0.2s, margin 0.2s;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#mc_embed_signup {
+  clear: left;
+}
+
 /*# sourceMappingURL=mystyles.css.map */
