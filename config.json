@@ -1,0 +1,67 @@
+{
+    "listings" : [
+        {
+            "name":     "Product Name",
+            "alt":      "Image Description",
+            "src":      "logo.png",
+            "link":     "https://square.link/u/UzwSVs7l",
+            "price":    "$600"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        },
+        {
+            "name":     "Second Product Name",
+            "alt":      "Another Image Description",
+            "src":      "logo-old.png",
+            "link":     "https://square.link/u/XB5P3PdM",
+            "price":    "$90"
+        }
+    ]
+}

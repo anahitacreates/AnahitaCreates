@@ -9,6 +9,33 @@ $(document).ready(function(){
                 $(".navbar-menu").toggleClass("is-active");
             });
         });
+
+    $("#my-footer")
+        .load("./html/footer.html");
+
+    function buildHandler(listing) {
+        return () => {
+            $('#image').attr("src", listing.src);
+            // $(this).unwrap();
+        };
+    }
+
+    $.getJSON('config.json', function(config){
+        var listings = config.listings;
+        $.get("html/listing.html", function(data) {
+            for (let i = 0; i < listings.length; i++) {
+                var listing = listings[i];
+                $(data)
+                    .find("#image").attr("src","images/"+listing.src).attr("alt",listing.alt).parent()
+                    .find("#name").text(listing.name).parent()
+                    .find("#checkout-button").attr("data-url",listing.link).attr("href",listing.link)
+                    .text("Buy: "+listing.price).parent().parent().parent()
+                    .appendTo("#listings");
+            }
+        });
+    });
+
     
-    $("#my-footer").load("./html/footer.html");
+    
+    
 });

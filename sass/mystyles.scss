@@ -16,10 +16,11 @@ $family-primary: 'Lato', sans-serif;
 $magnolia: #faf5fcff;
 $space-cadet: #272447ff;
 $new-york-pink: #cc7974ff;
-$tumbleweed: #f1b184ff;
+$tumbleweed: rgb(244, 172, 146);
 $medium-champagne: #ffe9a8ff;
 $light-champagne: #fdf2d3;
-$celadon: rgb(217, 245, 209);
+$celadon: #d9f5d1;
+$celadon-light: #ebfce6;
 $non-photo-blue: #96d7e5ff;
 $maximum-blue-purple: #c3b4f1ff;
 $maximum-blue-purple-light: #ebe6f9;
@@ -125,6 +126,49 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
 .profile-image {
   border-radius: 2%;
 }
+
+.art-listing {
+  overflow: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 258.96px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: -2px 10px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+.button-container {
+  height: 51px;
+  min-width: 218px;
+}
+
+.buy-button {
+  margin: auto;
+  margin-top: 1.5px;
+  display: inline-block;
+  line-height: 48px;
+  height: 48px;
+  color: $black-ter;
+  min-width: 212px;
+  background-color: $celadon;
+  box-shadow: 0 0 0 1px #0000001a inset;
+  border-radius: 6px;
+  transition: margin-top 0.1s ease-in-out,height 0.1s ease-in-out,min-width 0.1s ease-in-out,line-height 0.1s ease-in-out;
+}
+
+.buy-button:hover {
+  color: $grey-dark;
+  background-color: $celadon-light;
+  height: 51px;
+  min-width: 218px;
+  line-height: 51px;
+  margin-top: 0px;
+}
+
+
 
 
 // /* width */
