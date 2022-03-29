@@ -1047,16 +1047,16 @@ a.box:active {
   color: rgba(0, 0, 0, 0.7);
 }
 .button.is-link.is-light {
-  background-color: #eff9fb;
+  background-color: #acdbe6;
   color: #1d6777;
 }
 .button.is-link.is-light:hover, .button.is-link.is-light.is-hovered {
-  background-color: #e4f5f8;
+  background-color: #a2d7e3;
   border-color: transparent;
   color: #1d6777;
 }
 .button.is-link.is-light:active, .button.is-link.is-light.is-active {
-  background-color: #daf1f6;
+  background-color: #98d3e0;
   border-color: transparent;
   color: #1d6777;
 }
@@ -1984,7 +1984,7 @@ div.icon-text {
   color: rgba(0, 0, 0, 0.7);
 }
 .notification.is-link.is-light {
-  background-color: #eff9fb;
+  background-color: #acdbe6;
   color: #1d6777;
 }
 .notification.is-info {
@@ -2470,7 +2470,7 @@ div.icon-text {
   color: rgba(0, 0, 0, 0.7);
 }
 .tag:not(body).is-link.is-light {
-  background-color: #eff9fb;
+  background-color: #acdbe6;
   color: #1d6777;
 }
 .tag:not(body).is-info {
@@ -4240,7 +4240,7 @@ button.dropdown-item.is-active {
   color: #30177d;
 }
 .message.is-link {
-  background-color: #eff9fb;
+  background-color: #acdbe6;
 }
 .message.is-link .message-header {
   background-color: #96d7e5ff;
@@ -7772,15 +7772,15 @@ a.has-text-link:hover, a.has-text-link:focus {
 }
 
 .has-text-link-light {
-  color: #eff9fb !important;
+  color: #acdbe6 !important;
 }
 
 a.has-text-link-light:hover, a.has-text-link-light:focus {
-  color: #c6e9f1 !important;
+  color: #85cada !important;
 }
 
 .has-background-link-light {
-  background-color: #eff9fb !important;
+  background-color: #acdbe6 !important;
 }
 
 .has-text-link-dark {
@@ -10448,15 +10448,14 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   height: 48px;
   color: #242424;
   min-width: 212px;
-  background-color: #d9f5d1;
-  box-shadow: 0 0 0 1px #0000001a inset;
+  background-color: #96d7e5ff;
   border-radius: 6px;
   transition: margin-top 0.1s ease-in-out, height 0.1s ease-in-out, min-width 0.1s ease-in-out, line-height 0.1s ease-in-out;
 }
 
 .buy-button:hover {
   color: #4a4a4a;
-  background-color: #ebfce6;
+  background-color: #acdbe6;
   height: 51px;
   min-width: 218px;
   line-height: 51px;
@@ -10471,7 +10470,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .navbar-item:hover {
-  transition: padding 0.2s, margin 0.2s;
+  transition: padding 0.1s, margin 0.1s;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 0px;
@@ -10480,6 +10479,15 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 #mc_embed_signup {
   clear: left;
+}
+
+.subscribe-button {
+  background-color: #96d7e5ff;
+}
+
+.subscribe-button:hover {
+  color: #4a4a4a;
+  background-color: #acdbe6;
 }
 
 /*# sourceMappingURL=mystyles.css.map */

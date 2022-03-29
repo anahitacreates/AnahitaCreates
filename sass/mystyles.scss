@@ -22,6 +22,7 @@ $light-champagne: #fdf2d3;
 $celadon: #d9f5d1;
 $celadon-light: #ebfce6;
 $non-photo-blue: #96d7e5ff;
+$non-photo-blue-light: #acdbe6;
 $maximum-blue-purple: #c3b4f1ff;
 $maximum-blue-purple-light: #ebe6f9;
 
@@ -33,6 +34,7 @@ $dark: $space-cadet;
 $primary: $maximum-blue-purple;
 $primary-light: $maximum-blue-purple-light;
 $link: $non-photo-blue;
+$link-light: $non-photo-blue-light;
 $info: $celadon;
 $success: $medium-champagne;
 $success-light: $light-champagne;
@@ -153,15 +155,14 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
   height: 48px;
   color: $black-ter;
   min-width: 212px;
-  background-color: $celadon;
-  box-shadow: 0 0 0 1px #0000001a inset;
+  background-color: $link;
   border-radius: 6px;
   transition: margin-top 0.1s ease-in-out,height 0.1s ease-in-out,min-width 0.1s ease-in-out,line-height 0.1s ease-in-out;
 }
 
 .buy-button:hover {
   color: $grey-dark;
-  background-color: $celadon-light;
+  background-color: $link-light;
   height: 51px;
   min-width: 218px;
   line-height: 51px;
@@ -177,7 +178,7 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
 }
 
 .navbar-item:hover {
-  transition: padding 0.2s, margin 0.2s;
+  transition: padding 0.1s, margin 0.1s;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 0px;
@@ -186,6 +187,15 @@ $spacing-values: ("0": 0, "1": 0.25rem, "2": 0.5rem, "3": 0.75rem,
 
 #mc_embed_signup{
   clear:left; 
+}
+
+.subscribe-button {
+  background-color: $link;
+}
+
+.subscribe-button:hover {
+  color: $grey-dark;
+  background-color: $link-light;
 }
 
 // /* width */
